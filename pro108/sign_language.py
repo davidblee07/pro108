@@ -42,7 +42,7 @@ while True:
 
                 if lm_list[thumb_tip].y > lm_list[thumb_tip-1].y > lm_list[thumb_tip-2].y:
                    print("NAO CURTI")
-                   cv2.putText(img, "NAO CURTI", (20,30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,0), 3)        
+                   cv2.putText(img, "NAO CURTI", (20,30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,0,255), 3)        
 
 
             mp_draw.draw_landmarks(img, hand_landmark,
